@@ -82,4 +82,3 @@ for key, val in enron_data.items():
         if val['total_payments'] == 'NaN':
             cnt_nan += 1
 print(cnt_nan, cnt_poi)
-
